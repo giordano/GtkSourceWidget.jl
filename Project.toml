@@ -1,6 +1,11 @@
 name = "GtkSourceWidget"
 uuid = "6ceb4976-07da-5329-b1cb-20978726f1f4"
 
+[deps]
+Gtk = "4c0ca9eb-093a-5379-98c5-f87ac0bbbf44"
+GtkSourceView_jll = "bf9c6edb-e643-5064-a5c3-0f96a1285812"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
 [compat]
 julia = "1.3"
 
