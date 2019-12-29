@@ -1,5 +1,5 @@
 module GtkSourceWidget
 
-using GtkSourceView_jll
+# using GtkSourceView_jll
 
 end # module
