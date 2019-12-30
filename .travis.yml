@@ -24,6 +24,5 @@ script:
   - if [ `uname` = "Linux" ]; then
       xvfb-run julia --check-bounds=yes -e 'using Pkg; Pkg.test(coverage=true)';
     elif [ `uname` = "Darwin" ]; then
-      otool -L /usr/lib/libxml2.2.dylib;
       julia --check-bounds=yes -e 'using Pkg; Pkg.test(coverage=true)';
     fi
